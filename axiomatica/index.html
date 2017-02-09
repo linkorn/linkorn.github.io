@@ -7,6 +7,7 @@
   <link rel="stylesheet" href="./vendor/bootstrap/css/bootstrap.min.css">
   <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700,900&amp;subset=cyrillic" rel="stylesheet">
   <link rel="stylesheet" href="./css/main.css">
+  <link rel="stylesheet" href="./vendor/slick.css">
   <script type="text/javascript" charset="utf-8" async src="https://api-maps.yandex.ru/services/constructor/1.0/js/?sid=KJhlMYeiiCv4GvvophNKluwiWVP_xgtb&amp;width=100%25&amp;height=700&amp;lang=ru_RU&amp;sourceType=constructor&amp;scroll=false&amp;id=map"></script>
   <title>Axiomatica</title>
 </head>
@@ -30,10 +31,15 @@
     </div>
   </header>
   <main id="main">
+    <video poster="img/bg.png" id="bgvid" playsinline autoplay muted loop>      
+      <source src="img/bg.webm" type="video/webm">
+      <source src="img/bg.mp4" type="video/mp4">
+    </video>
+
     <div class="title">
       <h1>Axiomatica Smart Print</h1>
       <p>Круглосуточный центр печати<br> для Вас и Вашего бизнеса</p>
-      <a class="order-button" role="button" href="#">Сделать<br> заказ онлайн</a>
+      <a class="order-button" role="button" href="http://shop.axiomatica-print.ru" target="_blank" >Сделать<br> заказ онлайн</a>
     </div>
     <div id="carousel" class="carousel slide" data-ride="carousel">
       <!-- Indicators -->
@@ -67,30 +73,137 @@
 
     <div class="container">
       <div class="row">
-        <div class="col-md-4">
-          <div class="thumbnail">
-            <div class="caption">
-              <h3>КОПИРОВАЛЬНЫЙ ЦЕНТР</h3>
-            </div>
-            <img src="./img/do1.png" alt="КОПИРОВАЛЬНЫЙ ЦЕНТР">
+        <div class="col-md-4 service-elem first">
+            <div class="thumbnail">
+              <div class="caption">
+                <h3>КОПИРОВАЛЬНЫЙ ЦЕНТР</h3>
+              </div>
+              <img src="./img/do1.png" alt="КОПИРОВАЛЬНЫЙ ЦЕНТР">
+              <div class="service-detail-container">
+                <div class="service-detail">
+                  <div class="service-top">
+                      <ul>
+                          <li>Сканирование и архивирование</li>
+                          <li>Копирование</li>
+                          <li>Печать проектной документации</li>
+                          <li>Печать переменных данных</li>
+                          <li>Изготовление планшетов</li>
+                          <li>Печать учебных материалов</li>
+                      </ul>
+                  </div>
+                  <div class="service-bottom">
+                      <div class="sb-text">
+                          <table><tr><td>
+                          Axiomatica Print использует бизнес-инструменты и продуктами для оптимизации
+                          <br>деятельности производственного центра, что существенно повышает
+                          <br>эффективность всех бизнес-процессов, дает возможность автоматически
+                          <br>рассчитывать стоимость заказов, планировать запасы расходных материалов.
+                          </td></tr></table>
+                      </div>
+                      <div class="img-slider">
+                        <div class="slick">
+                            <div><img src="img/s1.png" /></div>
+                            <div><img src="img/s2.png" /></div>
+                            <div><img src="img/s3.png" /></div>
+                            <div><img src="img/s4.png" /></div>
+                            <div><img src="img/s5.png" /></div>
+                            <div><img src="img/s1.png" /></div>
+                            <div><img src="img/s2.png" /></div>
+                            <div><img src="img/s3.png" /></div>
+                        </div>                      
+                      </div>
+                  </div>
+                </div>
+            </div>        
           </div>
-
         </div>
-        <div class="col-md-4">
+        <div class="col-md-4 service-elem second">
           <div class="thumbnail">
             <div class="caption">
               <h3>ОПЕРТИВНАЯ ПОЛИГРАФИЯ</h3>
             </div>
             <img src="./img/do2.png" alt="ОПЕРТИВНАЯ ПОЛИГРАФИЯ">
+             <div class="service-detail-container">
+                <div class="service-detail">
+                  <div class="service-top">
+                      <ul>
+                          <li>Сканирование и архивирование</li>
+                          <li>Копирование</li>
+                          <li>Печать проектной документации</li>
+                          <li>Печать переменных данных</li>
+                          <li>Изготовление планшетов</li>
+                          <li>Печать учебных материалов</li>
+                      </ul>
+                  </div>
+                  <div class="service-bottom">
+                      <div class="sb-text">
+                          <table><tr><td>
+                          Axiomatica Print использует бизнес-инструменты и продуктами для оптимизации
+                          <br>деятельности производственного центра, что существенно повышает
+                          <br>эффективность всех бизнес-процессов, дает возможность автоматически
+                          <br>рассчитывать стоимость заказов, планировать запасы расходных материалов.
+                          </td></tr></table>
+                      </div>
+                      <div class="img-slider">
+                        <div class="slick">
+                            <div><img src="img/s1.png" /></div>
+                            <div><img src="img/s2.png" /></div>
+                            <div><img src="img/s3.png" /></div>
+                            <div><img src="img/s4.png" /></div>
+                            <div><img src="img/s5.png" /></div>
+                            <div><img src="img/s1.png" /></div>
+                            <div><img src="img/s2.png" /></div>
+                            <div><img src="img/s3.png" /></div>
+                        </div>                       
+                      </div>
+                  </div>
+                </div>
+            </div> 
           </div>
 
         </div>
-        <div class="col-md-4">
+        <div class="col-md-4 service-elem third">
           <div class="thumbnail">
             <div class="caption">
               <h3>ШИРОКОФОРМАТНАЯ ПЕЧАТЬ</h3>
             </div>
             <img src="./img/do3.png" alt="ШИРОКОФОРМАТНАЯ ПЕЧАТЬ">
+             <div class="service-detail-container">
+                <div class="service-detail">
+                  <div class="service-top">
+                      <ul>
+                          <li>Сканирование и архивирование</li>
+                          <li>Копирование</li>
+                          <li>Печать проектной документации</li>
+                          <li>Печать переменных данных</li>
+                          <li>Изготовление планшетов</li>
+                          <li>Печать учебных материалов</li>
+                      </ul>
+                  </div>
+                  <div class="service-bottom">
+                      <div class="sb-text">
+                          <table><tr><td>
+                          Axiomatica Print использует бизнес-инструменты и продуктами для оптимизации
+                          <br>деятельности производственного центра, что существенно повышает
+                          <br>эффективность всех бизнес-процессов, дает возможность автоматически
+                          <br>рассчитывать стоимость заказов, планировать запасы расходных материалов.
+                          </td></tr></table>
+                      </div>
+                      <div class="img-slider">
+                        <div class="slick">
+                            <div><img src="img/s1.png" /></div>
+                            <div><img src="img/s2.png" /></div>
+                            <div><img src="img/s3.png" /></div>
+                            <div><img src="img/s4.png" /></div>
+                            <div><img src="img/s5.png" /></div>
+                            <div><img src="img/s1.png" /></div>
+                            <div><img src="img/s2.png" /></div>
+                            <div><img src="img/s3.png" /></div>
+                        </div>                        
+                      </div>
+                  </div>
+                </div>
+            </div> 
           </div>
         </div>
       </div>
@@ -216,6 +329,7 @@
       </section>
 
       <section id="level4">
+        <table><tr><td>
         <h2>Отправить макет</h2>
         <form action="#">
           <div class="container">
@@ -244,6 +358,7 @@
           </div>
           <button id="submit">ОТПРАВИТЬ</button>
         </form>
+        </td></tr></table>
       </section>
 
       <section id="level5">
@@ -307,6 +422,12 @@ axiomatica-print
             Производственный центр печати для вашего бизнеса<br>
         &copy; ООО «Абрис», 2015-2017
        </div>
+       <ul class="sm-menu">
+        <li><a href="#">Оплата и доставка</a></li>
+        <li><a href="#">Оферта</a></li>
+        <li><a href="#">Реквизиты</a></li>
+        <li><a href="#">Требования к макетам</a></li>
+       </ul>
       </footer>
       <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
     <div class="modal-dialog" role="document">
@@ -355,6 +476,7 @@ axiomatica-print
       <script src="./vendor/jquery.easing.1.3.js"></script>
       <script src="./vendor/jquery.smooth-scroll.min.js"></script>
       <script src="./vendor/jquery.waypoints.min.js"></script>
-      <script src="./js/main.js" charset="utf-8"></script>
+      <script src="./vendor/slick.min.js" charset="utf-8"></script>
+      <script src="./js/main.js" charset="utf-8"></script>      
     </body>
     </html>
