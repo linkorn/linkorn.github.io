@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Test QR</title>
+  </head>
+  <body>
+    <script>
+      let string = "";
+      window.addEventListener("keydown", (e) => {
+        string += e.key;
+        if (/01\w{14}21\w{13}/.test(string)) {
+          string = "";
+          alert("found");
+        }
+      });
+    </script>
+  </body>
+</html>
